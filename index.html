@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>http://LaVidaEnDistintasFormas.com</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;font-family:sans-serif}
+body{background:#f1f5f9;color:#1e293b;line-height:1.6}
+header{background:#2563eb;color:white;text-align:center;padding:50px 20px}
+.tabs-container{max-width:900px;margin:20px auto;padding:0 15px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.tab-btn{padding:10px 18px;border-radius:20px;border:2px solid #2563eb;background:white;color:#2563eb;font-weight:600;cursor:pointer}
+.tab-btn.active{background:#2563eb;color:white}
+.tab-content{display:none;margin-top:15px}
+.tab-content.active{display:block}
+.info-card{background:white;padding:25px;border-radius:15px;margin-bottom:12px;box-shadow:0 4px 10px rgba(0,0,0,.1)}
+.badge{background:#dbeafe;color:#2563eb;padding:4px 10px;border-radius:15px;font-size:.8em;font-weight:700;display:inline-block;margin-bottom:6px}
+.info-card h2{font-size:1.25em;margin-bottom:6px}
+.info-card p, .info-card li{color:#475569;font-size:.95em}
+.info-card ul{margin-left:18px;margin-top:6px}
+</style>
+</head>
+<body>
+<header><h1>Inclusión para Todos</h1><p>La discapacidad es la interacción entre una persona y las barreras del entorno.</p></header>
+<div class="tabs-container">
+<div class="tabs">
+<button class="tab-btn active" onclick="openTab(event,'general')">¿Qué es?</button>
+<button class="tab-btn" onclick="openTab(event,'motriz')">Motriz</button>
+<button class="tab-btn" onclick="openTab(event,'visual')">Visual</button>
+<button class="tab-btn" onclick="openTab(event,'auditiva')">Auditiva</button>
+<button class="tab-btn" onclick="openTab(event,'intelectual')">Intelectual</button>
+<button class="tab-btn" onclick="openTab(event,'psicosocial')">Psicosocial</button>
+</div>
+
+<!-- ¿QUÉ ES? - 10 TARJETAS -->
+<div id="general" class="tab-content active">
+<div class="info-card"><span class="badge">OMS</span><h2>¿Qué es la discapacidad?</h2><p>La discapacidad es una condición que resulta de la interacción entre las limitaciones funcionales de una persona y las barreras del entorno físico, social o actitudinal. No es solo algo que está en el cuerpo, sino también en cómo la sociedad está organizada.
+Según la Convención sobre los Derechos de las Personas con Discapacidad de la ONU, son personas con discapacidad aquellas que tienen deficiencias físicas, mentales, intelectuales o sensoriales a largo plazo que, al interactuar con diversas barreras, pueden impedir su participación plena y efectiva en la sociedad en igualdad de condiciones con las demás.</p></div>
+<div class="info-card"><span class="badge">1</span><h2>Modelo social</h2><p>La discapacidad no está en la persona, está en las barreras del entorno que impiden su participación.</p></div>
+<div class="info-card"><span class="badge">2</span><h2>Lenguaje correcto</h2><p>Decimos persona con discapacidad. No decimos discapacitado, capacidades diferentes o enfermito.</p></div>
+<div class="info-card"><span class="badge">3</span><h2>Tipos</h2><p>Existen 5 tipos principales: motriz, visual, auditiva, intelectual y psicosocial.</p></div>
+<div class="info-card"><span class="badge">4</span><h2>Accesibilidad</h2><p>Que cualquier persona pueda entrar, entender, usar y moverse en un lugar o página web.</p></div>
+<div class="info-card"><span class="badge">5</span><h2>Derechos</h2><p>
+<br>• No discriminación: Prohibición de cualquier distinción, exclusión o restricción basada en la discapacidad.<br>
+<br>• Accesibilidad: Eliminación de barreras en el entorno físico, el transporte, la información y las comunicaciones.<br>
+<br>• Igualdad ante la ley: Reconocimiento de su personalidad y capacidad jurídica con acceso a los apoyos necesarios.<br>
+<br>• Salud y rehabilitación: Derecho a un alto estándar de salud y a servicios médicos, psicológicos y de rehabilitación.<br>
+<br>• Trabajo y empleo: Derecho a laborar en entornos abiertos, inclusivos, accesibles y con un salario igualitario.<br>
+<br>• Educación inclusiva: Acceso a la educación sin exclusión y con los ajustes razonables requeridos.<br>
+<br>• Vida independiente y movilidad personal: Derecho a desplazarse libremente y a elegir su lugar de residencia.<br>
+<br>• Participación política y pública: Derecho a votar, postularse y participar en la toma de decisiones gubernamentales.<br></p></div>
+<div class="info-card"><span class="badge">6</span><h2>Apoyo</h2><p>Para ayudar a una persona con discapacidad requiere, ante todo, respeto, naturalidad y comunicación directa. <br>Siempre pregunta "¿te puedo ayudar?" No asumas que necesita ayuda.<br></p></div>
+<div class="info-card"><span class="badge">7</span><h2>Mito</h2><p><br>• Mito: Las personas con discapacidad están enfermas o necesitan ser "curadas".</br>
+<br>• Mito: Siempre necesitan ayuda para todo y no pueden ser independientes.</br
+<br>• Mito: No pueden trabajar, estudiar ni aportar a la sociedad.</br>
+<br>• Mito: Confundir discapacidad intelectual con enfermedad mental.</br>
+<br>• Mito: Todas las discapacidades son visibles.<br></p></div>
+<div class="info-card"><span class="badge">8</span><h2>Conclusión</h2><p>Cuando el entorno se diseña con barreras físicas, sociales o de actitud, la discapacidad se vuelve limitante. Cuando ese mismo entorno elimina esas barreras y ofrece apoyos adecuados, las personas con discapacidad pueden participar plenamente en educación, trabajo y vida comunitaria.
+En resumen: la discapacidad deja de ser una limitación cuando la sociedad deja de poner obstáculos.</p></div>
+</div>
+
+<!-- MOTRIZ - 10 TARJETAS -->
+<div id="motriz" class="tab-content">
+<div class="info-card"><span class="badge">Física</span><h2>Motriz</h2><p>La discapacidad motriz es una condición médica que afecta el sistema neuromuscular y óseo, provocando una disminución o pérdida de las habilidades motoras, como el movimiento, la fuerza, la postura, la coordinación o el equilibrio. </p></div>
+<div class="info-card"><span class="badge">1</span><h2>Causas</h2><p><br>•Prenatales (antes del nacimiento): Malformaciones congénitas, infecciones durante el embarazo o problemas genéticos (como la espina bífida).</br><br>• Posnatales (después del nacimiento): Accidentes cerebrales, traumatismos craneoencefálicos por caídas o choques, amputaciones, o enfermedades adquiridas (como la poliomielitis o tumores).
+<br></p></div>
+<div class="info-card"><span class="badge">2</span><h2>Temporal o permanente</h2><p>Una fractura también es discapacidad motriz temporal.</p></div>
+<div class="info-card"><span class="badge">3</span><h2>Apoyos</h2><p><br>• Pregunta la ruta de preferencia: Antes de empezar a empujar una silla de ruedas, pregunta si prefiere un camino específico.<br>
+<br>• Avisa antes de moverte: Indica cuándo vas a avanzar, girar o si se aproxima un obstáculo.<br>
+<br>• Maneja los obstáculos con cuidado: Al bajar un escalón o banqueta con silla de ruedas, hazlo de espaldas (bajando primero las ruedas traseras grandes) para evitar que la persona se desestabilice o caiga hacia adelante.<br>
+<br>• Camina a su propio ritmo: Si la persona camina con bastón o muletas, adapta tu paso al suyo; no la apresures ni la jales del brazo, ya que puedes hacer que pierda el equilibrio.<br></p></div>
+<div class="info-card"><span class="badge">4</span><h2>Accesibilidad</h2><p>La accesibilidad para una persona con discapacidad motriz es la condición que permite desplazarse, usar espacios, acceder a servicios y participar de forma autónoma y segura, eliminando las barreras físicas o del entorno. Más que una limitación del cuerpo, la discapacidad se vuelve una barrera cuando el entorno no está adaptado a ayudas técnicas como sillas de ruedas, muletas, andaderas o bastones.</p></div>
+<div class="info-card"><span class="badge">5</span><h2>Comunicación</h2><p>Si la charla será larga, siéntate para quedar a la misma altura.</p></div>
+<div class="info-card"><span class="badge">6</span><h2>Escuela</h2><p><br>• Desplazamiento sin barreras: Rampas con inclinación adecuada, elevadores o planta baja accesible, puertas anchas y pasillos amplios para sillas de ruedas o andadores.</br>
+<br>• Baños adaptados: Espacios amplios, barras de apoyo y sanitarios accesibles.</br>
+<br>• Mobiliario ergonómico: Mesas regulables en altura o inclinables, asientos con buen soporte postural y rebordes o superficies antideslizantes para evitar la fatiga y mantener el material en su lugar.</br>
+<br>• Áreas comunes accesibles: Patios, bibliotecas, laboratorios y comedores a los que el estudiante pueda llegar y usar sin obstáculos.</br></p></div>
+<div class="info-card"><span class="badge">7</span><h2>Deporte</h2><p><br>Una persona con discapacidad motriz puede practicar casi cualquier deporte mediante deportes adaptados.</br>
+<br>• Deportes en silla de ruedas: baloncesto, tenis, rugby, esgrima y carreras en silla de ruedas.</br>
+<br>• Deportes acuáticos y al aire libre: natación, piragüismo o kayak, remo, ciclismo adaptado (como handbikes) y esquí adaptado.<br>
+<br>• Atletismo y fuerza: pruebas de pista o campo (en silla de ruedas, con prótesis o sin apoyos técnicos), halterofilia y tiro con arco.</br>
+<br>• Deportes de precisión y equipo: boccia, tenis de mesa, bádminton, hípica y voleibol sentado.</br></p></div>
+</div>
+
+<!-- VISUAL - 10 TARJETAS -->
+<div id="visual" class="tab-content">
+<div class="info-card"><span class="badge">Visual</span><h2>Visual</h2><p>La discapacidad visual es la disminución total o parcial de la capacidad para ver, que persiste incluso después de utilizar tratamientos médicos, cirugías o lentes convencionales. Esta condición dificulta actividades cotidianas como leer, desplazarse o reconocer objetos y personas, y surge de la interacción entre una alteración ocular o neurológica y las barreras del entorno.</p></div>
+<div class="info-card"><span class="badge">1</span><h2>Baja visión</h2><p>Existe un resto visual útil, aunque limitado en la agudeza (nitidez) o en el campo visual (amplitud de lo que se ve). Puede manifestarse como visión borrosa, visión de túnel o pérdida de la visión central.</p></div>
+<div class="info-card"><span class="badge">2</span><h2>Ceguera</h2><p>Pérdida total de la visión o una percepción mínima de luz que no resulta funcional para realizar tareas cotidianas sin apoyos específicos.</p></div>
+<div class="info-card"><span class="badge">3</span><h2>Braille</h2><p>El sistema braille es un método de lectura y escritura táctil basado en combinaciones de puntos en relieve que permite a las personas con discapacidad visual acceder a la información escrita.</p></div>
+<div class="info-card"><span class="badge">4</span><h2>Bastón</h2><p>Blanco: ceguera total. Verde: baja visión. No lo toques.</p></div>
+<div class="info-card"><span class="badge">5</span><h2>Tecnología</h2><p><br>Lectores de pantalla: Programas que leen en voz alta todo lo que aparece en la pantalla (textos, botones, menús y notificaciones).</br>
+<br>• En celulares: TalkBack (Android) y VoiceOver (iPhone/iPad).</br>
+<br>• En computadoras: NVDA (gratuito para Windows), JAWS (Windows) y VoiceOver (Mac).</br></p></div>
+<div class="info-card"><span class="badge">6</span><h2>Perro guía</h2><p><br>• Dirígete siempre a la persona: Saluda y habla directamente con el usuario, ignorando al perro.</br>
+<br>• Colócate del lado opuesto al perro: Si te piden ayuda para guiar a la persona, ponte siempre a su lado derecho (los perros guía van entrenados para caminar del lado izquierdo de su dueño).</br><br>•Controla a tus propias mascotas: Si paseas con tu perro, sujétalo firmemente con correa y mantén distancia para evitar que se acerque a jugar o gruñir.</p></div>
+<div class="info-card"><span class="badge">7</span><h2>Cómo guiar</h2><p><br>• Pregunta primero: Acércate, identifícate y pregúntale si necesita ayuda y hacia dónde se dirige. Si dice que no, respeta su decisión.</br>
+<br>• Ofrece tu brazo: Si acepta, toca suavemente el dorso de su mano con el tuyo para que ubique tu brazo, y deja que se sujete justo por encima de tu codo (con los dedos por dentro y el pulgar por fuera).</br><br>•No toques su bastón ni a su perro guía: El bastón es su herramienta de orientación y el perro guía está trabajando (si tiene perro, colócate del lado opuesto al animal).</p></div>
+<div class="info-card"><span class="badge">8</span><h2>Lenguaje</h2><p><br>• Habla directamente con la persona: Dirige tu voz y atención hacia ella, nunca hacia su acompañante para preguntarle qué quiere o cómo está.</br>
+<br>• Usa un tono y volumen normal: La discapacidad visual no afecta la audición, por lo que no es necesario gritar, exagerar la pronunciación ni hablar más lento.</br>
+<br>• No evites palabras visuales: Expresiones diarias como "nos vemos", "mira esto" o "¿viste esa película?" son parte normal del idioma y las personas ciegas o con baja visión las usan con frecuencia.</br></p></div>
+<div class="info-card"><span class="badge">9</span><h2>Accesibilidad</h2><p>Una persona con discapacidad visual requiere accesibilidad en su entorno físico, en la información y comunicación, y en el ámbito digital para moverse y participar con autonomía.</p></div>
+</div>
+
+<!-- AUDITIVA - 10 TARJETAS -->
+<div id="auditiva" class="tab-content">
+<div class="info-card"><span class="badge">Auditiva</span><h2>Auditiva</h2><p>Es la pérdida, disminución o alteración total o parcial de la capacidad para oír en uno o ambos oídos. Al no tener rasgos físicos evidentes, suele considerarse una discapacidad invisible y puede afectar el acceso al lenguaje oral y la comunicación con el entorno.</p></div>
+<div class="info-card"><span class="badge">1</span><h2>Hipoacusia y sordera</h2><p><br>• Hipoacusia: pérdida auditiva parcial. Suele conservarse un resto auditivo que puede mejorar con auxiliares auditivos o tratamientos médicos.</br>
+<br>• Sordera (o cofosis): pérdida auditiva total o profunda. Dificulta o impide escuchar por vía auditiva, por lo que la comunicación suele apoyarse en canales visuales, como la lengua de señas.</br></p></div>
+<div class="info-card"><span class="badge">2</span><h2>LSM</h2><p>La Lengua de Señas Mexicana (LSM) es la lengua visual utilizada por la comunidad sorda en México. Está reconocida como lengua nacional y parte del patrimonio lingüístico del país.</p></div>
+<div class="info-card"><span class="badge">3</span><h2>No es universal</h2><p>Cada país tiene su propia lengua de señas.</p></div>
+<div class="info-card"><span class="badge">4</span><h2>Apoyos</h2><p>Una persona con discapacidad puede usar diversos apoyos para su día a día. En lo médico, accede a medicamentos, terapias de rehabilitación y dispositivos como sillas de ruedas, prótesis o bastones, además de atención especializada. Para la audición, utiliza aparatos auditivos, implantes cocleares, sistemas FM o bucles magnéticos e intérpretes de lengua de señas. En comunicación, emplea tableros con pictogramas, apps de voz a texto y texto a voz, y lengua de señas mexicana. En accesibilidad, cuenta con rampas, elevadores, baños adaptados, señalización en braille, pisos podotáctiles, semáforos sonoros y software lector de pantalla. Todos estos apoyos buscan promover su autonomía, participación e igualdad de oportunidades.</p></div>
+<div class="info-card"><span class="badge">5</span><h2>Cómo hablarle 1</h2><p><br>1. Antes de hablar</br>
+<br>- Llama su atención primero: Toca suavemente su hombro o haz contacto visual. No grites desde lejos.</br>
+<br>- Asegúrate de que te vea: Ponte frente a ella, con buena luz en tu cara. Evita tener la luz detrás porque se hace sombra.</br>
+<br>2. Mientras hablas- Habla normal, sin exagerar: No grites ni hables muy lento. Articula bien las palabras y mantén un ritmo tranquilo.</br>
+<br>- Usa frases cortas y directas: Si no entiende, reformula en lugar de repetir igual.</br>
+<br>- Apoya con gestos y expresión facial: Tu cara y manos ayudan mucho a entender el contexto.</br>
+<br>- Evita taparte la boca: No comas, fumes o pongas la mano frente a tu boca mientras hablas. Necesita ver tus labios para leerlos.</br>
+</p></div>
+<div class="info-card"><span class="badge">6</span><h2>Cómo hablarle 2</h2><p><br>1. Entorno y herramientas</br>
+<br>- Reduce el ruido de fondo: Apaga la tele o aléjate de lugares muy ruidosos.</br>
+<br>- Escribe si es necesario: Usa el celular o papel para palabras difíciles, nombres propios o números.</br>
+<br>- Pregunta qué prefiere: Algunas personas usan lectura labial, otras lengua de señas o aparatos auditivos. Pregúntale directamente cómo le facilita la comunicación.</br>
+<br>2. Actitud importante</br>
+<br>- Ten paciencia: Dale tiempo para responder. No termines sus frases.</br>
+<br>- Trata a la persona, no a su discapacidad: Háblale directo a ella, no al acompañante.</br>
+<br>- Si hay intérprete de LSM: Dirígete a la persona sorda, no al intérprete.</br>
+</p></div>
+<div class="info-card"><span class="badge">7</span><h2>Mito labios</h2><p>Solo el 30% se entiende leyendo labios. No todos saben.</p></div>
+<div class="info-card"><span class="badge">8</span><h2>Accesibilidad</h2><p>Una persona con discapacidad auditiva necesita accesibilidad para comunicarse y participar en igualdad. Esto incluye intérpretes de LSM, subtítulos descriptivos, alertas visuales como luces en timbres y alarmas, y transcripción en tiempo real. En tecnología, requiere bucles magnéticos, apps con subtítulos y teléfonos con texto. En espacios físicos, necesita señalización clara, buena iluminación para lectura labial y ambientes con poco ruido. En servicios, debe haber atención preferente, información escrita y personal capacitado para comunicarse. Cada persona usa apoyos distintos, por eso lo más importante es preguntar qué necesita.
+</p></div>
+<div class="info-card"><span class="badge">9</span><h2>Escuela</h2><p><br>Una escuela inclusiva para una persona con discapacidad auditiva debe garantizar acceso a la información y participación plena.</br>
+<br>En el aula, se usan intérpretes de Lengua de Señas Mexicana, subtítulos en videos y clases, y sistemas FM o bucles magnéticos para conectar con aparatos auditivos. El maestro habla de frente, con buena iluminación y evita taparse la boca para facilitar la lectura labial.</br>
+<br>El entorno tiene poca reverberación, señalización visual clara y alertas luminosas para emergencias. Además, hay apoyo de maestros de educación especial, materiales escritos y compañeros sensibilizados.</br>
+<br>Lo esencial es adaptar la comunicación, no bajar el nivel académico, y preguntar a cada estudiante qué apoyo le funciona mejor.</br></p></div>
+</div>
+
+<!-- INTELECTUAL - 10 TARJETAS -->
+<div id="intelectual" class="tab-content">
+<div class="info-card"><span class="badge">Cognitiva</span><h2>Intelectual</h2><p>Ritmo de aprendizaje diferente. Apoyo: lenguaje sencillo.</p></div>
+<div class="info-card"><span class="badge">1</span><h2>Qué es</h2><p>Es una condición que afecta el funcionamiento intelectual y la conducta adaptativa de una persona. Se caracteriza por limitaciones significativas tanto en el razonamiento, aprendizaje y resolución de problemas, como en habilidades prácticas para la vida diaria.</p></div>
+<div class="info-card"><span class="badge">2</span><h2>Causas</h2><p>Puede originarse por factores genéticos como síndrome de Down, problemas durante el embarazo o parto, infecciones, exposición a toxinas, desnutrición severa o lesiones cerebrales tempranas. En muchos casos no se identifica una causa específica.</p></div>
+<div class="info-card"><span class="badge">3</span><h2>Cada persona es única</h2><p>Tiene gustos, fortalezas y habilidades propias.</p></div>
+<div class="info-card"><span class="badge">4</span><h2>Apoyos</h2><p>Las personas con  intelectual usan diferentes apoyos para ser más autónomas e incluirse en la sociedad. En lo educativo reciben adecuaciones curriculares y maestros de apoyo. Para la vida diaria aprenden habilidades como cocinar o usar el transporte, a veces con pictogramas o agendas visuales. En lo laboral cuentan con empleo con apoyo y tutores. También tienen terapia ocupacional, psicología y grupos sociales para fortalecer su comunicación. La tecnología ayuda con apps de comunicación y alarmas para recordar tareas. Por último, la familia, centros de día y actividades recreativas inclusivas completan el apoyo. Todo busca que participen con dignidad en la escuela, el trabajo y la comunidad.</p></div>
+<div class="info-card"><span class="badge">5</span><h2>Comunicación</h2><p><br>1. Habla claro y directo: Frases cortas, palabras simples, sin sarcasmo ni metáforas. Ve al grano. Ejemplo: "¿Vamos al parque?" en lugar de "¿Te gustaría salir a disfrutar del aire libre?".</br>
+<br>2. Da tiempo para responder: Espera 5-10 segundos después de preguntar. No interrumpas. Procesar la información toma más tiempo y la prisa los bloquea.</br>
+<br>3. Usa apoyos visuales + confirma que entendió: Apóyate en gestos, fotos, pictogramas o escribe palabras clave. Y en vez de "¿Entendiste?", pregunta "¿Me dices qué vamos a hacer?" para verificar sin presionar.</br</p></div>
+<div class="info-card"><span class="badge">6</span><h2>Autonomía</h2><p><br>La autonomía es la capacidad de tomar decisiones sobre la propia vida y llevarlas a cabo. En personas con discapacidad intelectual, esta capacidad existe pero se expresa de forma distinta según cada caso.</br>
+<br>No depende solo del diagnóstico. Influye el grado de apoyo que necesita la persona, los recursos disponibles como educación o tecnología asistiva, y el entorno social y legal. Con apoyos adecuados, muchas personas logran ser autónomas en áreas clave: elegir su ropa, comida o amigos; manejar rutinas diarias; trabajar con acompañamiento; e incluso vivir de forma independiente.</br></p></div>
+<div class="info-card"><span class="badge">7</span><h2>Escuela</h2><p><br>La escuela para una persona con discapacidad intelectual se adapta para que pueda aprender según su ritmo y necesidades.</br><br>1. Ajustes curriculares: Se modifican contenidos, tiempos y formas de evaluación. El objetivo es desarrollar habilidades prácticas para la vida diaria, comunicación y autonomía.</br>
+<br>2. Educación inclusiva: Muchos estudiantes asisten a escuelas regulares con apoyo de maestros de educación especial, auxiliares o terapias. Otros van a centros de educación especial cuando requieren atención más intensiva.</br>
+<br>3. Enfoque en habilidades funcionales: Además de materias básicas, se trabaja en lectura funcional, manejo de dinero, rutinas, socialización y preparación laboral.</br></p></div>
+</div>
+
+<!-- PSICOSOCIAL - 10 TARJETAS -->
+<div id="psicosocial" class="tab-content">
+<div class="info-card"><span class="badge">Mental</span><h2>Psicosocial</h2><p>La discapacidad psicosocial esta relscionada con problemas mentales, para poder apoyarla es necesario escuchar sin juzgar.</p></div>
+<div class="info-card"><span class="badge">1</span><h2>Qué es</h2><p>La discapacidad psicosocial es una limitación temporal o permanente que experimenta una persona debido a una condición de salud mental, la cual dificulta su participación plena y en igualdad de condiciones en la sociedad al interactuar con diversas barreras del entorno.</p></div>
+<div class="info-card"><span class="badge">2</span><h2>Condiciones</h2><p><br>• Trastornos del estado de ánimo: Depresión mayor, trastorno bipolar.</br>
+<br>• Trastornos psicóticos: Esquizofrenia, trastorno esquizoafectivo.</br>
+<br>• Trastornos de ansiedad y del estrés: Trastorno de ansiedad generalizada, trastorno de pánico, trastorno obsesivo-compulsivo (TOC), trastorno por estrés postraumático (TEPT).</br>
+<br>• Trastornos de la personalidad: Trastorno límite de la personalidad (TLP), entre otros.</br>
+<br>• Trastornos de la conducta alimentaria: Anorexia, bulimia.</br>
+<br>• Trastorno dual: Combinación de un trastorno de salud mental con el uso problemático de sustancias (adicciones).</br></p></div>
+<div class="info-card"><span class="badge">3</span><h2>No es debilidad</h2><p>La discapacidad psicosocial no es debilidad. Es una condición de salud mental respaldada por factores médicos y sociales que no depende de la fuerza de voluntad ni define el valor o la fortaleza de una persona.</p></div>
+<div class="info-card"><span class="badge">4</span><h2>Barrera principal</h2><p>El estigma social y la discriminación hacia los problemas de salud mental. Estas actitudes excluyentes limitan la participación plena de la persona en la sociedad mucho más que la propia condición clínica.</p></div>
+<div class="info-card"><span class="badge">5</span><h2>Qué NO decir</h2><p>Qué evitar decir:
+- "Échale ganas" o "Todo está en tu mente" minimiza lo que vive.
+- "Pero tú te ves bien" invalida su experiencia interna.
+- "Yo también me deprimo a veces" compara experiencias muy distintas.
+- Bromas sobre su condición o diagnósticos.</p></div>
+<div class="info-card"><span class="badge">6</span><h2>Qué SÍ decir</h2><p>1. Hablarle normal, como a cualquier persona:
+<br>- "Hola, ¿cómo estás? ¿Quieres sentarte con nosotros?"
+- "¿Te ayudo en algo?"
+- "¿Quieres platicar o prefieres estar solo un rato?"</br>
+<br>2. Preguntar, no suponer:
+- En vez de: "Seguro estás mal por tu enfermedad"
+- Mejor: "¿Cómo te sientes hoy? ¿Hay algo que te haga sentir más cómodo?"
+- "¿Cómo te gusta que te digan? ¿Te molesta si te pregunto algo?"</br>
+<br>3. Validar lo que siente:
+- "Te entiendo, debe ser difícil."
+- "Gracias por contarme, aquí estoy."
+- "No pasa nada si hoy no tienes ganas, lo entiendo."</br></p></div>
+<div class="info-card"><span class="badge">7</span><h2>En crisis</h2><p>
+<br>1. Reconoce la situación: Una crisis puede verse como agitación intensa, confusión, riesgo para sí mismo o para otros, o pérdida de contacto con la realidad.</br>
+<br>2. Busca ayuda profesional: Habla con un profesional de salud mental o médico lo antes posible para que evalúe la situación.</br>
+<br>3. Recursos de emergencia en México: Si hay riesgo inmediato, llama al 911. También puedes contactar a la Línea de la Vida al 800 911 2000, disponible las 24 horas para apoyo emocional.</br></p></div>
+<div class="info-card"><span class="badge">8</span><h2>Apoyos</h2><p><br>• Habla con claridad y calma: Usa un tono suave, frases sencillas y evita el doble sentido, las burlas o las ironías.</br>
+<br>• Escucha sin juzgar: Dale tiempo para expresarse y valida sus sentimientos sin minimizarlos ni confrontarlos.</br>
+<br>• Evita etiquetas: Dirígete a la persona por su nombre y no la definas por su diagnóstico.</br>
+<br>• Respeta el espacio y los límites: No invadas su espacio personal ni asumas qué necesita sin consultarlo antes.</br>
+<br>• Reduce estímulos abrumadores: Evita discusiones, gritos o espacios ruidosos y saturados que puedan generar ansiedad o crisis.</br>
+<br>• Facilita pausas y previsibilidad: Avisa con anticipación sobre cambios o actividades nuevas y permite que se retire un momento si necesita recuperarse.</br></p></div>
+<div class="info-card"><span class="badge">9</span><h2>Entorno sano</h2><p>Un entorno sano para una persona con discapacidad psicosocial es aquel que elimina las barreras actitudinales y organiza los espacios para ofrecer seguridad emocional, previsibilidad, autonomía y ajustes razonables.</p></div></div>
+</div>
+<script>function openTab(e,id){document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));document.getElementById(id).classList.add('active');e.currentTarget.classList.add('active');}</script>
+</body>
+</html>
